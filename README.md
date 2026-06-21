@@ -41,4 +41,15 @@ for (x, y, w, h) in faces:
     blur = cv2.GaussianBlur(face, (75, 75), 30)
     frame[y:y+h, x:x+w] = blur
     
-This loop takes each detected face, applies a heavy blur, and places it back into the video frame.
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Aditya Kumar**
+
+- B.Tech CSAI, USICT
+- Frontend & Full Stack Developer
+
+⭐ If you found this project useful, don't forget to star the repository!
